@@ -12,7 +12,7 @@
     } else {
         window.domJSON = factory(root);
     }
-})(this, function(win) {
+})(window, function(win) {
     "use strict";
     var domJSON = {};
     var metadata = {

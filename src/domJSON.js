@@ -25,7 +25,7 @@
 	} else { //Browser global
 		window.domJSON = factory(root);
 	}
-})(this, function(win){
+})(window, function(win){
 	"use strict";
 
 	/** 
